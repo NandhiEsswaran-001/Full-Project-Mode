@@ -2,6 +2,7 @@
 
 void List::print_menu() {
     int choice;
+    cout << "\n";
     cout << "*****************" << endl;
     cout << "1.Print List\n";
     cout << "2.Add to list\n";
@@ -30,6 +31,7 @@ void List::print_menu() {
 
 void List::add_item() {
 
+    cout << "\n";
     cout << "Add item\n";
     cout << "Type an item\n";
 
@@ -46,6 +48,7 @@ void List::add_item() {
 
 void List::delete_item() {
 
+    cout << "\n";
     cout << "Delete item\n";
     cout << "Select Index number to delete: \n";
 
@@ -69,6 +72,7 @@ void List::delete_item() {
 
 void List::print_list() {
 
+    cout << "\n";
     cout << "Printing List\n";
 
     for(unsigned int i = 0; i < list.size(); i++) {
